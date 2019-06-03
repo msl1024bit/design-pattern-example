@@ -7,4 +7,5 @@ package com.liujq.demo.designpattern.behavior.observer;
  * @date 2019-05-31
  */
 public interface Observer {
+    public void update(String name, String message);
 }
